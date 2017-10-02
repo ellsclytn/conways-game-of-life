@@ -1,4 +1,14 @@
 const renderBoard = require('./render')
-const { createInitialBoard } = require('./board')
+const {
+  createInitialBoard,
+  tick
+} = require('./board')
 
-renderBoard(createInitialBoard())
+let board = createInitialBoard()
+
+renderBoard(board)
+
+setInterval(() => {
+  board = tick(board)
+  renderBoard(board)
+}, 500)

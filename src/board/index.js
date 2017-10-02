@@ -1,5 +1,4 @@
-const WIDTH = 60
-const HEIGHT = 60
+const { WIDTH, HEIGHT } = require('../constants')
 
 const createBoardArray = (width, height) => (
   Array(width).fill(
