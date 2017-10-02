@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha \"src/**/__test__/*-test.js\"",
     "build": "webpack",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "lint": "standard \"src/**/*.js\""
   },
   "author": "Ellis Clayton <ellis@ellisclayton.info>",
   "license": "ISC",
