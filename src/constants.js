@@ -1,5 +1,5 @@
 module.exports = {
-  WIDTH: 60,
-  HEIGHT: 60,
+  WIDTH: 120,
+  HEIGHT: 120,
   SCALE: 4
 }
