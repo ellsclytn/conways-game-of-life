@@ -1,5 +1,7 @@
 # Conway's Game of Life
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ellsclytn/conways-game-of-life.svg)](https://greenkeeper.io/)
+
 **In JavaScript, no less**
 
 ## Requirements
