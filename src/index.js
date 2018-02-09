@@ -11,4 +11,4 @@ renderBoard(board)
 setInterval(() => {
   board = tick(board)
   renderBoard(board)
-}, 500)
+}, 200)

@@ -1,4 +1,4 @@
-const { WIDTH, HEIGHT } = require('../constants')
+const { SCALE } = require('../constants')
 
 const createBoardArray = (width, height) => (
   Array(width).fill(
@@ -7,8 +7,8 @@ const createBoardArray = (width, height) => (
 )
 
 const createInitialBoard = (
-  width = WIDTH,
-  height = HEIGHT
+  width = Math.floor(window.innerWidth / SCALE),
+  height = Math.floor(window.innerHeight / SCALE)
 ) => (
   createBoardArray(width, height).map((column) => (
     column.map((cell) => (
